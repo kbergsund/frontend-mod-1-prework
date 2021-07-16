@@ -1,13 +1,36 @@
 ## Section 2 Reflection
 
-1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
+- [x] Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 
-1. In this section, we removed some of the supports that you had in Section 1. We didn't give the directions for how to run a file in node, and really sent you off to learn about functions by exploring several outside resources. How did that feel? What was uncomfortable about it? How did it support your learning?
+I haven't had too many questions yet so will further discover this as we go on. In general, though, I would say I tend to wait to long or fall somewhere in between- thought definitely still closer to waiting too long. I tend to like to figure things out on my own. It cements my knowledge and just feels good. An added component of this is that in new groups, I am initially a bit quieter. I warm up and come out of my shell with time. I took some good notes on the blog post, especially Kathryn Grayson's post about recognizing questions are dumb and to ask them anyways. I really resonated with the idea that you shouldn't be afraid of wasting someone else's time by asking a question (though there is of course a limit to this), you should more be cognizant of how at a certain point, not asking the question is wasting your time. The question will not get any less dumb but the route you take to solve it might depending on what you do. Regardless of whether I take too long, if I still am not clear on something, I will always ask the question in the end because I don't like gaps in my understanding.
 
-1. What is a conditional statement? Give one example of a daily life conditional. Give one example of where a conditional is probably used in a web application you use.
+&nbsp;
+- [x] In this section, we removed some of the supports that you had in Section 1. We didn't give the directions for how to run a file in node, and really sent you off to learn about functions by exploring several outside resources. How did that feel? What was uncomfortable about it? How did it support your learning?
 
-1. How do you add multiple conditions to an `if` statement? In your own words, explain how to program reads them and determines what to do.
+I really enjoyed it. Felt good to be able to explore the depths of my knowledge thus far. It enabled me to self-assess throughout and cemented my understanding of how to do things like run a file in node, use keyboard shortcuts, write in markdown, etc. I did not feel uncomfortable and look forward to more of this style of instruction.
 
-1. What tools are available to you, as a developer, if you want to check that TWO conditions are met? Or, if you want to check that 1 of 2 conditions are met, before running a block of code?
+&nbsp;
+- [x] What is a conditional statement? Give one example of a daily life conditional. Give one example of where a conditional is probably used in a web application you use.
 
-1. What questions do you still have about `if` statements and/or functions?
+A conditional statement is a set up in the script that guides the computer through a series of `if`/then conditions that enable branching paths and instructions for what to do next. These conditions are logic statements or rules, typically using comparison operators or logical operators. If met, the computer executes code within the specific condition's curly brackets and then exits the whole conditional statement. It does not evaluate any additional conditions within the statement. If not met, the computer moves on, without executing code in the unmet condition's curly brackets, in a top-bottom order to evaluate any additional conditions. This allows us to start a conditional statement with an `if`/then condition and then follow that up with as many `else if`/then conditions as needed. Only one curly bracket worth of code will be executed. At the end, a catch-all `else` statement can be used for situations in which none of the conditions were me.
+
+A daily life conditional is in the morning and at night, if I have not brushed my teeth yet, I need to brush my teeth. Else if I have already brushed my teeth, I don't. Another level of that is if I have brushed my teeth but not flossed, I need to floss. However, if I have not brushed my teeth and not flossed, I need to brush my teeth first. Only if I have both brushed my teeth and flossed is there nothing left to do.
+
+A web application example is, whenever you need to sign into an account, if the inputted password matches whatever is stored in the user data, then they can be logged in and taken to their account home. If it does not match, they need to receive an error message that their password is incorrect and that they should retry. They can also be shown a 'forgot password' button.
+
+&nbsp;
+- [x] How do you add multiple conditions to an `if` statement? In your own words, explain how the program reads them and determines what to do.
+
+Multiple conditions within an  `if` statement are added by chaining `else if` statements together. A conditional statement can have as many `else if`s as needed. Only one `if` though, to start it out. Adding another `if` will lead the computer to treat it as an entirely new conditional statement and this could lead to undesired results, with 2+ curly bracket blocks of code executing. The program reads conditional statements in a top-bottom approach. One at a time, it evaluates if the given condition is met. If it is, it executes the code within that single condition and then exits the conditional statement entirely, not evaluating any further conditions or executing these conditions' code. If not met, the computer moves on to the next condition without executing the code within the unmet condition's curly brackets. In summary, within any given `if` / `else if` / `else if` / `else if` /etc., the computer will only execute one curly bracket block of code depending on which condition is met. If none are met, none of the code is executed, unless there is a catch-all `else` at the end which basically signals that if none of the previous conditions are met, and thus the computer 'arrives' at the bottom without doing anything, it should execute this last curly bracket of code no matter what.
+
+&nbsp;
+- [x] What tools are available to you, as a developer, if you want to check that TWO conditions are met? Or, if you want to check that 1 of 2 conditions are met, before running a block of code?
+
+To simultaneously check if two conditions are met, we can use logical operators. These logical operators are `&&`(AND) and ``||`` (OR). With the first, `&&`, both conditions must be met for the condition to be met and the condition's curly bracket code to be executed. If only 1 stated condition is met but not the other, the condition as a whole will not be met. On the other hand, with the or operator, `||`, only one or the other condition must be met for the entire condition to be met. They don't _need_ to both be met for the condition's curly bracket code to execute however they _can_ both be met- the condition will still execute. Overall, `&&` refers to both/and while `||` refers to either/or (but both/and works too).
+
+&nbsp;
+- [x] What questions do you still have about `if` statements and/or functions?
+
+1. Is including semi-colons at the end of the line in Javascript best practice for professional developers? Mason explained that you just want consistency but I am curious if I should establish the habit now because it is important in the industry.
+2. In practice, what is the difference between an undefined variable and a variable that is assigned the value of either an empty string or the number 0? Thinking specifically about the decision-making exercise and the declaration of bearClothes. Is there any reason you want to define the data type ahead of defining the specific value?
+3. I assume we will get further into it in Mod 1 but I did scan the documentation about using logical operators with non-boolean values. I do not understand what it meant by the condition returning whichever value can be 'coerced' into true/false.
