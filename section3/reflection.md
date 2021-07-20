@@ -1,15 +1,31 @@
 ## Section 3 Reflection
 
-1. What are two points from the Growth Mindset article and/or video that either resonated with you, or were brand new to you?
+- [x] What are two points from the Growth Mindset article and/or video that either resonated with you, or were brand new to you?
 
-1. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
+Two points from the article and video that resonated with me were the concept of striving to improve within one's own Zone of Proximal Development (ZPD). I had not heard this phrase before but I love how it frames the learning journey, especially when it comes to a topic like software development. There is no end to how much you can learn and how minute or complex you can get with what you are learning (from Wordpress to binary). In the past, I have gotten easily overwhelmed by this but maintaining perspective of my ZPD, that the more I learn and experience, the more proficiency I have to keep going deeper in my learning, the more I can stay present and grounded. Even a month from now, I will be getting comfortable with topics that are, at present, outside of my ZPD. And that's part of the beauty of the process. Another relatively new point made my the article but especially stressed by Carmen Popoviciu in the video is the importance of reflecting on your progress. Rather than looking ahead (losing site of ZPD) or looking around at other people, look back at your own path. Where you started and how far you've come. Reflect on the broadening of your own ZPD. Both of these techniques will  a fixed mindset in a really beneficial way.
 
-1. Think of a web or mobile application you use regularly. Where is an example of a place that the developers probably use Arrays? Explain.
+- [x] In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
 
-1. In your own words, explain what an Array method is.
+One way that I currently demonstrate a growth mindset is through understanding that mistakes are essential to learning. I am not afraid to run bad or incomplete code and try again. I also don't shy away from being corrected if I have answered something incorrectly. Better to be corrected than continue believing the wrong thing. Errors help me understand what I am regularly skipping over or leaving out. I view error messages sort of as coaches guiding me through writing it right the first time (thought I might never get there and that's fine too). I also do already believe in myself and my ability to improve with effort and practice. This core belief is why I am here at Turing. Learning is discovery not being given the answers or being immediately good.
 
-1. What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?
+As I mentioned above, one way that I do not yet practice a growth mindset is losing sight of my own ZPD. I have a bad habit of comparing myself to others, both in my immediate circle (people I know/my peers) and in general (everyone in the world). Social media doesn't help. To shift this tendency towards a growth mindset, I need to direct this energy towards comparing myself to myself in the past. One other area in which I would like to improve is asking for help. I tend to want to figure it out on my own and go past 30 minutes, resulting in a deep rabbit hole that is well outside of my ZPD. I will work on knowing when to throw in the metaphorical towel. Part of this is centering the fact that, similar to mistakes and error messages, getting help is part of the learning process. It is not a reflection of my capacity or lack thereof.
 
-1. If you had to teach a 5 year old about loops, how would you explain it?
+- [x] Think of a web or mobile application you use regularly. Where is an example of a place that the developers probably use Arrays? Explain.
 
-1. What questions do you still have about Arrays and loops?
+I use a number of social media platforms. There are a couple difference places where developers may use arrays. The first is somebody's followers. They are likely stored as an array that is then counted (perhaps using length!) and displayed on their profile so the person knows how many people are following them. The same might be true for how many other accounts the person is following. Finally, there's a chance even a person's individual posts are stored in an array that acts a bit like an archive. However, it is possible these are stored as objects, not really sure.
+
+- [x] In your own words, explain what an Array method is.
+
+Overall, methods are predefined functions, or specific actions, that are innately included within the standard JavaScript library. Methods are typically attached to a certain object. That is to say, we can write our own objects and methods from scratch. However, some are already written as part of the JavaScript language. Array methods are a perfect example of this. They are functions, or actions, that, when called in a script (`arrayName.method();`), manipulate arrays in various ways depending on the method. They are included and explained in the general JavaScript documentation.
+
+- [x] What is the purpose of a loop? When we would use a loop in conjunction with array vs. without?
+
+The purpose of a loop is to iterate a specific action multiple times depending on certain conditions (the number of times can be defined or not depending on if you're using the `for` or `while` keyword). One purpose it serves is to decreases the number of necessary of code by a significant margin. It minimizes redundancy. It is essentially an iterating function. Write a looping statement once, have it execute as many times as you like. We use loops in conjunction with arrays when we want to use and/or manipulate the individual elements. It allows us to work through each element one at a time and perform an action on each one. We use it without arrays when we just want to perform an action a certain number of times. In that case, we use a general counter variable and counting condition statement to define the loop length.
+
+- [x] If you had to teach a 5 year old about loops, how would you explain it?
+
+Let's say we have a bag of 6 balloons, each a different color of the rainbow. We need to inflate each balloon and tie it shut. We need to do the same exact thing for each balloon (blow enough air into it and then tie it off). We start with the red balloon. Once we're done with that one, we only have 5 balloons left to inflate! We move onto the orange balloon, then yellow, green, blue, and purple. By blowing up and tying off each one, we are looping the same action through the group of balloons in the bag. Once we get to the purple balloon, we don't have any more to inflate so our loop is complete and we won't do it any more times.
+
+- [x] What questions do you still have about Arrays and loops?
+1. I know we clarified that it is generally not used, but are there specific applications- and if so what are they -for using multiple data types in arrays? Perhaps just storing information? I guess then it would seem to make more sense to just use an object data type. Purely curious.
+2. Does every loop need a 3-part condition or can it be simpler? Related, is the update portion of a loop's counter condition restricted to manipulating the counter variable? I know the risk is setting off an infinite loop but could you just reset `i`? Not sure of situation in which this would be necessary just curious.

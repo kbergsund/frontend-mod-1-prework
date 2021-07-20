@@ -37,6 +37,7 @@ Then, consider on the following questions. We will ask you to share some of thes
 - What are two points from the article or video that either resonated with you, or were brand new to you?
 - In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
 - What is something you are good at or knowledgeable at now, that you once weren't? How did you get those skills/knowledge? Was it hard at some point?
+Learning Italian! The same as now learning a programming language- time & practice. It was definitely hard at many points. Even when I was living in Italian speaking it every day (what I would identify as my most fluent), I would look words up and sometimes turn to translator. It is the same with Googling and learning programming.
 
 ## Part B Arrays
 
