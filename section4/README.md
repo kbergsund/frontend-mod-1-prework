@@ -167,7 +167,7 @@ Proerties contains data about a specific object. We also refer to this group of 
 
 The example that follows has 3 properties in state - `amount`, `date`, and `type`. They are declared _inside_ of the `constructor` method _inside_ of the class.
 
-> The constructor method is called when we use the `new` keyword. If a consutrcutor method is not declared inside the class, like in our skeleton above, there is actually one that we don't see. You will learn about that at a deeper level in Mod 1.
+> The constructor method is called when we use the `new` keyword. If a constructor method is not declared inside the class, like in our skeleton above, there is actually one that we don't see. You will learn about that at a deeper level in Mod 1.
 
 ```javascript
 class TransactionItem {
@@ -200,14 +200,14 @@ var deposit = new TransactionItem(200, "02/03/20", "deposit");
 console.log(deposit);
 //=>TransactionItem {amount: 200, date: "02/03/20", type: "deposit"}
 
-var withdrawl = new TransactionItem(150, "02/04/20", "withdrawl");
+var withdrawl = new TransactionItem(150, "02/04/20", "withdrawal");
 console.log(withdrawl)
 //=>TransactionItem {amount: 150, date: "02/04/20", type: "withdrawl"}
 ```
 
 Passing arguments to the new instance and declaring parameters in the constructor allow us to build classes and create objects that follow the same blueprint, but have potentially unique data attached to each said object instance.
 
-Remember, the `new` keyword is what calls the `constructor` method. _Note the way data flows through this._ The argument of `200` maps to the paramter `amt` in the constructor. Then the `deposit` object instance has `200` as the value of the `amount` property. If you aren't quite sure how those are coming together yet - good! The exercise will be a good opportunity to poke and explore that more. In mod 1 you will go into a LOT of detail about the `this` keyword. Don't worry much about it now, but do include `this.` in your properties inside the constructor.
+Remember, the `new` keyword is what calls the `constructor` method. _Note the way data flows through this._ The argument of `200` maps to the parameter `amt` in the constructor. Then the `deposit` object instance has `200` as the value of the `amount` property. If you aren't quite sure how those are coming together yet - good! The exercise will be a good opportunity to poke and explore that more. In mod 1 you will go into a LOT of detail about the `this` keyword. Don't worry much about it now, but do include `this.` in your properties inside the constructor.
 
 > 👨🏾‍💻 PAUSE here, and complete the exercises in `classProperties.js`
 
