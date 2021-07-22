@@ -78,7 +78,6 @@ if (numQuarters < 2) {
   console.log("I have enough money for a gumball");
 }
 
-
 /*
 YOU DO:
 Using the variables defined below, determine if you have the

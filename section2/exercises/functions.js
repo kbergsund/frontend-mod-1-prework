@@ -82,6 +82,6 @@ Look at the code you wrote for the previous YOU DO🎈 - what did you name the f
 What did you name each parameter, and why?
 
 EXPLAIN:
-I named my function 'combineStrings'. I felt it was likely good practice to- in 2-3 words -describe what the function does. I included a verb that lays out, in essence, what happens and the noun of what is impacted. I did the same for the previous exercise with findSum but the noun is what the end result will be. My parameters are very basic, string1 and string2. This is likely not good practice because it doesn't describe the content of the strings but the YOU DO assignment was very broad and just asked for a function that concatenated strings. Given the content of what is logged to the console, I definitely could have named them name1 and name2.
+I named my function 'combineStrings'. I felt it is likely good practice to- in 2-3 words -describe what the function does. I included a verb that lays out what happens and the noun of what is impacted. I did the same for the previous exercise with findSum but the noun is what the end result will be. My parameters are very basic, string1 and string2. This is likely not good practice because it doesn't describe the content of the strings but the YOU DO assignment was very broad and just asked for a function that concatenated strings. Given the content of what is logged to the console, I definitely could have named them name1 and name2.
 
 */

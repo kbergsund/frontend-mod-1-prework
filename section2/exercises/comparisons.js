@@ -20,13 +20,14 @@ var numberDogs = 0;
 
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
 console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
-// this should log: "Is numberTeachers greater than numberStudents?" false
+// this should log: Is numberTeachers greater than numberStudents? false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
-// this should log: true
+// this should log: Is numberTeachers less than numberStudents? true
 console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents)
+
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
-// this should log: true
+// this should log: Is numberTeachers equal to stringTeachers? true
 console.log("Is numberTeachers equal to stringTeachers?", numberTeachers == stringTeachers)
 /*
 Note: this is an example of type coercion. Although stringTeachers is a string and numberStudents is an integer,
@@ -35,7 +36,7 @@ perform this evaluation
 */
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
-// this should log: false
+// this should log: Is numberTeachers strictly equal to stringTeachers? false
 console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers)
 /*
 Note: the strictly equal to operator compares the value of the variable in addition to the type of the variable.
@@ -45,19 +46,23 @@ In JavaScript, it is a best practice to use the strict comparison. It is said th
 */
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
-// this should log: true
-console.log("is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents)
+// this should log: Is numberTeachers not equal to numberStudents? true
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents)
+
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
-// this should log: true
+// this should log: Is numberStudents greater than or equal to 20? true
 console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20)
+
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
-// this should log: false
+// this should log: Is numberStudents greater than or equal to 21? false
 console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21)
+
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
-// this should log: true
+// this should log: Is numberStudents less than or equal to 20? true
 console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20)
+
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
-// this should log: true
+// this should log: Is numberStudents less than or equal to 21? true
 console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 //-------------------
@@ -71,27 +76,27 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 console.log(4 < 9);
 // YOU DO: Explain.
-// Evaluating if 4 is less than 9. The console will log true.
+// Evaluates if 4 is less than 9. The console will log true.
 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
-// Creating a variable called books and assigning it the value of 3
-// Evaluating if 4 is less than books (3). The console will log false.
+// Creates a variable called books and assigns it the value of 3
+// Then, evaluates if 4 is less than books (3). The console will log false.
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
-// Creating two variables, friends and siblings, and assigning them the values of 6 and 2, respectively.
-// Evaluating whether friends (6) is greater than siblings (2). The console will log true.
+// Creates two variables, friends and siblings, and assigns them the values of 6 and 2, respectively.
+// Then, evaluates whether friends (6) is greater than siblings (2). The console will log true.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-// Creating two variables, attendees and meals, and assigning them the values of 9 and 8, respectively.
-// Evaluating whether attendess (9) is not equal to meals (8). The console will log true because the variables are not equal.
+// Creates two variables, attendees and meals, and assigns them the values of 9 and 8, respectively.
+// Then, evaluates whether attendees (9) is not equal to meals (8). The console will log true because the variables are not equal.
 
 //-------------------
 // PART 3: Logical Operators
@@ -126,7 +131,7 @@ console.log("Does the dog love to play and is it a puppy?", lovesToPlay && age <
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
-// Final line evaluated to true as expected. Both lovesToPlay and the comparison operation I set up (that the dog has to be less than or equal to 2 years old to be a puppy) are true. Logical operators are not restricted to evaluate booleans but in this case the comparison did result in a boolean.
+// Final line evaluated to true as expected. Both lovesToPlay and the comparison operation I set up (that the dog has to be less than or equal to 2 years old to be a puppy) are true. Logical operators are not restricted to evaluate booleans but in this case the comparisons did result in a boolean.
 
 //-------------------
 // FINAL CHECK
