@@ -28,13 +28,12 @@ console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
-// YOU DO: Write code that will log the String "Elephant" in the animals array
-console.log(animals.pop());
-animals.push("Gorilla");
+animals[2] = "Gorilla";
+console.log(animals);
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 animals.push("Gazelle");
-//console.log(animals);
+console.log(animals);
 
 // YOU DO: Write code that will log the String "Elephant" in the animals array
 animals.unshift("Elephant");
@@ -68,7 +67,8 @@ foods.push("tostada", "chilaquile", "taquito");
 console.log(foods);
 
 // YOU DO: Remove the food that is in index position 0.
-console.log(foods.shift());
+foods.shift();
+console.log(foods);
 
 //-------------------
 // PART 3: Where are Arrays used?
@@ -113,9 +113,14 @@ if the user has a charger at all, or what type.
 They can call an uber if they have a charger and it is a car charger.
 
 */
+// Different variable assignments commented out for testing.
 var percentBatteryLeft = 12;
-var hasCharger = true;
+// var percentBatterLeft = 15;
+// var percentBatterLeft = 25
+var hasCharger = true
+// var hasCharge = false;
 var chargerType = "car";
+// var chargerType = "wall";
 
 // Write your conditional here
 // Evaluates first condition, whether person has enough phone charge. 15% exactly is fine without a battery, hence why < not <=
