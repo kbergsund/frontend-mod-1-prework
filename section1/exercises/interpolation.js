@@ -23,8 +23,7 @@ console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
-// It will be a string. Thanks to type coercion and interpolation. The varibales within the curly brackets will be
-// assimilated into the string.
+// Data type will be a string. Thanks to type coercion and interpolation. The varibales within the curly brackets will be integrated into the string.
 
 // YOU DO:
 // Write code that combines the variables below into a string that

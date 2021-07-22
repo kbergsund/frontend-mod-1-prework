@@ -23,8 +23,8 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
 // Your answer and explanation here:
-// A string data type will be logged thanks to javascript's type coercion funcionality.
-// The numberOfCreatures number will be assimilated into the string within console.log
+// A string data type will be logged thanks to JavaScript's type coercion funcionality.
+// The numberOfCreatures number will be integrated into the string within console.log through concatenation with +.
 
 // YOU DO:
 // Write code that combines the variables below into a string that
