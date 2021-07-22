@@ -17,15 +17,11 @@ var lunchOrder = {
   dish: "BLT",
   beverage: "iced tea",
   tableNumber: 47,
-  inPrep: function() {
-    console.log("Your order is in progress.")
-  },
-  complete: function() {
-    console.log("Your order is complete!")
-  }
+  prepare: function() { console.log("Your order is in progress.") },
+  complete: function() { console.log("Your order is complete!") }
 };
 
 console.log(lunchOrder);
 
-lunchOrder.inPrep();
+lunchOrder.prepare();
 lunchOrder.complete();

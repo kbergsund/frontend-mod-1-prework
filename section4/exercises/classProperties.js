@@ -151,7 +151,8 @@ class Shirt {
     this.color = color
     this.occasion = purpose
     this.hasHoles = rips
-    this.needsWash = status  }
+    this.needsWash = status
+  }
 }
 
 var buttonDown = new Shirt("long sleeved", "blue", "work", false, true);

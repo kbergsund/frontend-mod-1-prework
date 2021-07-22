@@ -10,6 +10,7 @@ Make sure to run the file with node in your command line.
 
 // EXAMPLE: Write code below that will declare a variable that stores an Object Literal
 //  that holds grocery store inventory
+
 var foods = {
   apples: 23,
   grapes: 507,
@@ -17,6 +18,7 @@ var foods = {
 };
 
 console.log(foods);
+
 // Notice that the variable name is foods, plural, because it has the ability to hold info about
 // potentially many foods. That plural name indicates to another developer that the variable stores
 // either an Array or an Object.
@@ -27,6 +29,7 @@ console.log(foods);
 
 // YOU DO: Write code below that will declare a variable that stores an Object Literal of animal names and
 // the number of that type of animal at the zoo.
+
 var animals = {
   giraffes: 4,
   pandas: 2,
@@ -37,17 +40,21 @@ var animals = {
 
 // Using the zoo that you created above, log the value of the first item in
 // the Object
+
 console.log(animals.giraffes);
 
 // Add an animal to the zoo Object, and log the updated Object.
+
 animals.tigers = 3;
 console.log(animals);
 
 // Change the value for at least one of your animal keys, and log the updated Object.
+
 animals.meerkats = 57;
 console.log(animals);
 
 // Add another animal to the zoo Object, and log the updated Object.
+
 animals.warthogs = 9;
 console.log(animals);
 
@@ -70,7 +77,7 @@ var email = {
   recipient: "Everyone",
   subject: "URGENT: Do This",
   content: "Drink water!",
-  date: 08231992,
+  date: 07212021,
 }
 
 console.log(email);
@@ -143,7 +150,7 @@ var inbox = [
   {
     sender: "Din Djarin",
     recipient: "Armorer",
-    subject: "This is the way",
+    subject: "This is the way.",
     content: "",
     date: "9ABY"
   }
